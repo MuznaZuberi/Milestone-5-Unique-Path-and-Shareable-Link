@@ -1,0 +1,105 @@
+body {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+form {
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    border: 1px solid #09094A; 
+
+}
+
+
+.img-container{
+    text-align: center;   
+}
+
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+
+
+h1{
+    font-size:40px;
+    text-align: center;
+    color: #09094A;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size:40px;
+}
+
+fieldset {
+    border: 1px solid #09094A; 
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #2F3866;
+    
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid #09094A; 
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color:#09094A;
+    color: white;
+    border:inherit;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: arial , serif;
+    padding: 10px;
+}
+
+button :hover {
+    color: #D8D8DD;
+}
+
+#Curriculum-Vitae{
+    max-width: 700px;
+    margin: auto;
+    padding:20px;
+    border: 2px solid white; 
+    border-radius: 10px;
+    background-color:#09094A;
+    color: white;
+    margin-top:10px;
+}
+
+#Curriculum-Vitae h2 {
+    color:white;
+}
+
+
+#Username-based-Links{
+   display: none;
+}
