@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shareable Resume By Muzna Amir Zubairi</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+
+<body>
+
+	<form id = "resume">
+
+		<div class="img-container">
+        <img src="image/p-img.jpg" alt="profile-img" class="profile-img">
+        </div>
+
+        
+        <h1>Shareable Resume</h1>
+
+        <!-- Personal Info -->
+		<fieldset>
+			<legend>Personal Information</legend>
+			<label for="user_name">User_name:</label>
+			<input input = "text" id = "user_name" placeholder="enter your user_name" required>
+			<label for="name">Name:</label>
+			<input type="text" id = "name" placeholder="enter your name" required>
+			<label for="email">Email:</label>
+			<input id = "email" placeholder="enter your email" required>
+		</fieldset>
+
+
+
+        <!-- Education -->
+		<fieldset>
+			<legend>Education</legend>
+			<label for="school">School:</label>
+			<input type = "text" id = "school" placeholder="enter your school-name" required>
+			<label for="degree">Degree:</label>
+			<input type = "text" id = "degree" placeholder="enter your degree" required>
+		</fieldset>
+
+
+ 
+        <!-- Experience -->
+		<fieldset>
+			<legend>Experience</legend>
+			<label for="job">Job Title:</label>
+			<input id = "job" placeholder="enter your job" required>
+			<label for="company">Company:</label>
+			<input id = "company" placeholder="enter your company-name" required>
+		</fieldset>
+
+
+
+
+        <!-- Skills -->
+		<fieldset>
+			<legend>Skills</legend>
+			<label for="skills">Skills (comma-seperated): </label>
+			<textarea id = "skills" placeholder="enter your skills" rows="4" required></textarea>
+		</fieldset>
+
+
+
+        <!-- Generated Button -->
+		<button type="submit"><b>Generate Resume</b></button>
+	<div id="Curriculum-Vitae"></div>
+
+
+	
+	<div id="Username-based-Links">
+		<h2>Shareable Link</h2>
+		<p>Here is your bespoke link to access or amend your resume.</p>
+		<a href="#" id="share-link" target="blank"></a>
+		<button id="PDF file">Obtain as a PDF file</button>
+	</div>
+
+	</form>
+
+
+
+
+    
+
+
+</body>
+	<script src="typescript/main.js"></script>
+</html>
